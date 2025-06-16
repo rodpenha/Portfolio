@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #0a0c21;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.lat{
+    align-content: left;
+    background-color: #0e1021;
+    width: 300px;
+    height: 714.7px;
+    flex-shrink: 0;
+}
+
+.arroba, .name, .pg1{
+    text-align: center ;
+}
+
+.dsnv{
+    flex: 1;
+}
+
+#undf{
+    color: cyan;
+    font-size: 80px;
+}
+
+img{
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+}
+
+.app{
+    display: flex;
+    gap: 50;
+}
+
+.app img {
+    width: 30px; 
+    height: auto;
+    cursor: pointer;
+  }
+
+  #perfil{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: solid, #0a0c21;
+  }
+
+  .foto{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100px;
+    width: 100%;             
+  }
+
+  .lat {
+    width: 300px;
+    position: fixed;
+    height: 100vh; /* Altura total da tela */
+    overflow-y: auto; /* Caso precise rolar dentro da lat */
+    padding: 20px;
+}
+
+#body2 {
+    margin-left: 320px; 
+    padding: 20px;
+}
+
+#id2{
+    width: 560px;
+    height: 315px;
+}
+
+.content {
+    width: 300px;
+    height: 400px;
+    overflow: auto;  /* Habilita a rolagem */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.content::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+.content::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo do "trilho" da barra */
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #ff0000; /* Cor do polegar (a parte que o usuário arrasta) */
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+    background: #555;}
